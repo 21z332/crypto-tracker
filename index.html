@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cryptocurrency Tracker</h1>
+    </header>
+    <main>
+        <section id="carousel">
+            <h2>Trending Coins</h2>
+            <div class="swiper-container" id="trending-coins-carousel">
+                <div class="swiper-wrapper" id="trending-coins"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section id="search-section">
+            <input type="text" id="search-box" placeholder="Search for a coin...">
+        </section>
+        <section id="coins-section">
+            <h2>Coins Sorted by Market Cap</h2>
+            <div id="coins-list"></div>
+            <div id="pagination"></div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
